@@ -12,5 +12,5 @@ def get_stations():
 def get_datasets():
   pass
 
-def get_datatypes():
+def get_data():
   pass
