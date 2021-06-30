@@ -10,6 +10,7 @@
 
 1. Create a wrapper function for `/datasets` endppoint based on given documentation.
    - https://www.ncdc.noaa.gov/cdo-web/webservices/v2#datasets
+   - All of the CDO data are in datasets. The containing dataset must be known before attempting to access its data.
    - example data: dataset returns a dictionary:
      {"metadata": {"resultset":{"offset":1, "count": 11, "limit": 25}}, "results": [{'uid': 'gov.noaa.ncdc:C00861', 'mindate': '1763-01-01', 'maxdate': '2021-06-20', 'name': 'Daily Summaries', 'datacoverage': 1, 'id': 'GHCND'}]}
 2. Create a wrapper function for `/stations` endpoint based on given documentation.
